@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <style>
+    input,
+    select {
+
+      margin-bottom: 10px;
+
+    }
+  </style>
+  
+</head>
+<body style="margin: 0px; padding: 0px;">
+  <div style="background-color: gainsboro; width: 70%; margin: 100px auto; padding: 25px;">
+      <p style="color:black;">
+        <span style="color: red;">*</span> 
+        - Donation Required Information
+      </p>
+
+      <p>
+        <a href="#" style="text-decoration: none; color: black;">><strong> 1 Donation </strong> </a> &nbsp;&nbsp;&nbsp;&nbsp;
+	    	<a href="#" style="text-decoration: none;color: black;">>2 Comfirmation</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		    <a href="#" style="text-decoration: none;color: black;">>3 Thank you</a>
+      </p>
+
+      <h3 style="color: red;">Donor Information</h3>
+
+      <div style="padding: 30px;">
+
+        <form>
+
+          <label for="fname"><strong>First Name </strong><span style="color: red;">*</span></label>
+          <input type="text" id="fname" placeholder="Mohaiminul"  style="display: block; width: 100%;">
+
+          <label for="lname"><strong>Last Name </strong><span style="color: red;">*</span></label>
+          <input type="text" id="lname" placeholder="shanto"  style="display: block; width: 100%;">
+
+          <label for="com"><strong>Company</strong></label>
+          <input type="text" id="com" placeholder="Aiub"  style="display: block; width: 100%;">
+
+          <label for="add1"><strong>Address 1</strong><span style="color: red;">*</span></label>
+          <input type="text" id="add1" placeholder="Address 1"  style="display: block; width: 100%;">
+
+          <label for="add2"><strong>Address 2 </strong><span style="color: red;">*</span></label>
+          <input type="text" id="add2" placeholder="Address 2"  style="display: block; width: 100%;">
+
+          <label for="city"><strong>City </strong><span style="color: red;">*</span></label>
+          <input type="text" id="city" placeholder="Barguna"  style="display: block; width: 100%;">
+
+          <label for="state"><strong>State</strong><span style="color: red;">*</span></label>
+          <select name="state" id="state" style="display: block; width: 100%";>
+            <option value="Barishal">Barishal</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Rangpur">Rangpur</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Comilla">Comilla</option>
+          </select>
+
+          <label for="DA"><strong>Donation Amount </strong><span style="color: red;">*</span></label> <br>
+          <input type="radio" id="none" name="da" value="none">
+          <label for="none">none</label><br>
+          <input type="radio" id="50" name="da" value="50">
+          <label for="50">50</label><br>
+          <input type="radio" id="75" name="da" value="75">
+          <label for="75">75</label><br>
+          <input type="radio" id="100" name="da" value="100">
+          <label for="100">100</label><br>
+          <input type="radio" id="150" name="da" value="150">
+          <label for="150">150</label><br>
+          <input type="radio" id="other" name="da" value="other">
+          <label for="other">Other</label>
+          <br>
+
+          <label for="OA"><strong>Other Amount </strong></label>
+          <input type="text" id="OA" placeholder="13432"  style="display: block; width: 100%;">
+
+          <label for="RD"><strong>Recurring Donation </strong><span style="color: red;">*</span></label>
+          <input type="checkbox" id="RD" name="vehicle1" value="Bike">
+          <label for="RD"> I am interested in giving on a regular basis</label><br>
+
+          <h3 style="color: red;"> Honorarium and Memorial Donation Information</h3>
+
+          <label for="fname"><strong>First Name </strong><span style="color: red;">*</span></label>
+          <input type="text" id="fname" placeholder="Mohaiminul"  style="display: block; width: 100%;">
+
+          <label><strong>I would like to make this donation </strong></label> <br>
+          <input type="radio" id="to" name="to" value="To Honor">
+          <label for="To Honor">To Honor</label><br>
+          <input type="radio" id="in" name="to" value="in memory of">
+          <label for="in memory of">in memory of</label><br>
+          
+          <label for="name"><strong>Name </strong><span style="color: red;">*</span></label>
+          <input type="text" id="name" placeholder="Mohaiminul"  style="display: block; width: 100%;">
+
+          <label for="lname"><strong>Acknowladge donation to </strong><span style="color: red;">*</span></label>
+          <input type="text" id="lname" placeholder="shanto"  style="display: block; width: 100%;">
+
+          <label for="com"><strong>Address</strong></label>
+          <input type="text" id="com" placeholder="Aiub"  style="display: block; width: 100%;">
+
+          <label for="add1"><strong>City</strong><span style="color: red;">*</span></label>
+          <input type="text" id="add1" placeholder="Address 1"  style="display: block; width: 100%;">
+          
+          <label for="state"><strong>State</strong><span style="color: red;">*</span></label>
+          <select name="state" id="state" style="display: block; width: 100%";>
+            <option value="Barishal">Barishal</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Rangpur">Rangpur</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Comilla">Comilla</option>
+          </select>
+
+          <label for="ad"><strong>Zip</strong><span style="color: red;">*</span></label>
+          <input type="text" id="ad" placeholder="Address 1"  style="display: block; width: 100%;">
+
+          <h3 style="color: red;">Aditional Information</h3>
+          <p>Please enter your name, conmpany or organization as you would like it to appear in our publication:</p>
+          <label for="">Name <span style="color: red;">*</span></label>
+          <input type="text" id="ad" placeholder="full name" style="display: block; width:100%;">
+
+          <input type="checkbox" name="" style="padding-left: 20px">I would like my gift to remain anonymous <br/>
+					<input type="checkbox" name="">My employer offers a matching gift program.I will met the matching gift form <br/>
+          <input type="checkbox" name="">I would like my gift to remain anonymous 
+          <br>
+          
+          <label for=""><b> Comments </b><br/> (Please Type any Question or feadback here)</label>
+
+
+          <textarea rows="4" cols="50" name="comment" form="usrform" style="display: block; width: 100%;">
+          </textarea>
+
+          <label for=""> How may we contact you?</label>
+          <br>
+
+                <input type="checkbox" name="">E-mail<br>
+								<input type="checkbox" name="">Postal Mail<br>
+								<input type="checkbox" name="">Telephone<br>
+                <input type="checkbox" name="">Fax <br>
+                
+                <span style="color:gray;"> I would like to recive newsletters and information about Social Event :</span> <br>
+                <input type="checkbox" name="" style="padding-left: 50px;">E-mail<br>
+                <input type="checkbox" name="">Postal Mail
+                <br>
+                <input type="checkbox" name=""> I would like information about volunteering with the ..............
+                <br>
+                <input type="reset" name="resesr" value="Reset" >
+						    <input type="submit" name="sumbit" value="Continue"> 
+
+        </form>
+        
+      </div>
+  </div>
+</body>
+</html>
