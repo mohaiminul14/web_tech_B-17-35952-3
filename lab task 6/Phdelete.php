@@ -1,4 +1,0 @@
-<?php
-unlink("delete.txt");
-
-?>
